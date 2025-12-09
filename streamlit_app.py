@@ -768,6 +768,17 @@ elif eval_btn:
             unsafe_allow_html=True
         )
 
+# Footer 
+st.markdown(
+    """
+    <br><br>
+    <div style="text-align: center; color: #555; font-size: 15px;">
+        Developed by <a href="https://bit.ly/tlf-parfait" target="_blank" style="color:#4a90e2; text-decoration:none; font-weight:bold;">Parfait TOLEFO</a>
+    </div>
+    <br>
+    """,
+    unsafe_allow_html=True
+)
 
 # Maping table displaying by default
 else:
