@@ -728,13 +728,13 @@ elif eval_btn:
 
         st.markdown(
             "[Open this form in a new tab]"
-            "(https://docs.google.com/forms/d/e/1FAIpQLSfuOpE215IKGv9_dblMhAHUWbsksVSIm4Bxo8brheqWpJIDhA/viewform?usp=publish-editor)"
+            "(https://docs.google.com/forms/d/e/1FAIpQLSfuOpE215IKGv9_dblMhAHUWbsksVSIm4Bxo8brheqWpJIDhA/viewform?usp=dialog)"
         )
 
         st.markdown(
             """
             <iframe 
-                src="https://docs.google.com/forms/d/e/1FAIpQLSfuOpE215IKGv9_dblMhAHUWbsksVSIm4Bxo8brheqWpJIDhA/viewform?embedded=true" 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSfuOpE215IKGv9_dblMhAHUWbsksVSIm4Bxo8brheqWpJIDhA/viewform?usp=dialog" 
                 width="100%" 
                 height="700" 
                 frameborder="0" 
