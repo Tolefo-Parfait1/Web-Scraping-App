@@ -4,3 +4,4 @@ bs4
 pathlib
 requests
 matplotlib
+xlsxwriter
