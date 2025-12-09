@@ -768,6 +768,11 @@ elif eval_btn:
             unsafe_allow_html=True
         )
 
+
+# Maping table displaying by default
+else:
+    show_data_source_table()
+
 # Footer 
 st.markdown(
     """
@@ -779,8 +784,3 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-# Maping table displaying by default
-else:
-    show_data_source_table()
-
